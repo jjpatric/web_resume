@@ -81,7 +81,7 @@ impl App {
         html! {
             <nav class="navbar is-danger" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <h1 class="navbar-item is-size-3">{ "Board Games" }</h1>
+                    <h1 class="navbar-item is-size-3">{ "Rusty webpage" }</h1>
 
                     <a role="button"
                         class=("navbar-burger", "burger", active_class)
