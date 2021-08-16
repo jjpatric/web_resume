@@ -17,18 +17,6 @@ use pages::{
     welcome::Welcome
 };
 
-mod server_comm {
-    pub mod get_fetch;
-    pub mod get_agent;
-    pub mod post_fetch;
-    pub mod post_agent;
-}
-
-use server_comm::{
-    get_fetch::GameFetcher,
-    post_fetch::GamePoster
-};
-
 pub struct App {
     link: ComponentLink<Self>,
     navbar_active: bool,
